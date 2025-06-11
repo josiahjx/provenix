@@ -1,6 +1,6 @@
 export const defaultMetadata = {
   title: {
-    default: 'Forensiqo | Crypto Intelligence & Recovery Solutions',
+    default: 'Forensiqo | Blockchain Intelligence & Asset Recovery',
     template: '%s | Forensiqo'
   },
   description: 'Advanced tracking and monitoring solution for digital assets and cryptocurrency recovery.Recover Lost or Stolen Cryptocurrency | Trusted Crypto Recovery ServicesGet expert help to recover lost, hacked, or stolen crypto assets. Our secure, fast, and professional crypto recovery services support Bitcoin, Ethereum, and all major wallets. 24/7 support. Regain access today!',

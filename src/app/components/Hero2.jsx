@@ -27,17 +27,17 @@ const HeroPage = () => {
         <div className="mt-8 flex justify-center md:justify-start w-full md:w-auto">
           <div className="flex items-center space-x-8">
             <div className="text-white text-center">
-              <div className="text-3xl font-extrabold">$100M+</div>
+              <div className="md:text-3xl text-xl font-extrabold">$100M+</div>
               <div className="text-blue-200">Recovered</div>
             </div>
             <div className="h-12 w-px bg-blue-300"></div>
             <div className="text-white text-center">
-              <div className="text-3xl font-extrabold">98%</div>
+              <div className="md:text-3xl text-xl font-extrabold">98%</div>
               <div className="text-blue-200">Success Rate</div>
             </div>
             <div className="h-12 w-px bg-blue-300"></div>
             <div className="text-white text-center">
-              <div className="text-3xl font-extrabold">24/7</div>
+              <div className="md:text-3xl text-xl font-extrabold">24/7</div>
               <div className="text-blue-200">Support</div>
             </div>
           </div>
