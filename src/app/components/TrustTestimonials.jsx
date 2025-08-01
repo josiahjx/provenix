@@ -8,31 +8,31 @@ const TrustTestimonials = () => {
     {
       name: 'Simon Phil.',
       role: 'Blockchain Secuirity Analyst',
-      content: 'Forensiqo helped me recover my lost Bitcoin wallet. Their team was professional and efficient throughout the entire process.',
+      content: 'Forensigo helped me recover my lost Bitcoin wallet. Their team was professional and efficient throughout the entire process.',
       rating: 5
     },
     {
       name: 'Jerom Kylian.',
       role: 'Crypto Trader',
-      content: 'I thought my Ethereum was gone forever, but Forensiqo proved me wrong. Their expertise in blockchain recovery is unmatched.',
+      content: 'I thought my Ethereum was gone forever, but Forensigo proved me wrong. Their expertise in blockchain recovery is unmatched.',
       rating: 5
     },
     {
       name: 'Emily Anke.',
       role: 'Business Owner',
-      content: 'The team at Forensiqo went above and beyond to help me recover my business funds. Highly recommended!',
+      content: 'The team at Forensigo went above and beyond to help me recover my business funds. Highly recommended!',
       rating: 4
     },
     {
       name: 'Susan Walt.',
       role: 'Crypto Enthusiast',
-      content: 'Fast, reliable, and trustworthy. Forensiqo helped me recover my lost assets when others couldn\'t.',
+      content: 'Fast, reliable, and trustworthy. Forensigo helped me recover my lost assets when others couldn\'t.',
       rating: 5
     },
     {
       name: 'David Matt.',
       role: 'Software Developer',
-      content: 'As someone who understands blockchain technology, I can attest to Forensiqo\'s technical expertise.',
+      content: 'As someone who understands blockchain technology, I can attest to Forensigo\'s technical expertise.',
       rating: 4
     }
   ];

@@ -35,8 +35,8 @@ const Navbar = () => {
               <div className="flex-shrink-0">
                 <Link href="/" className="text-white text-2xl font-bold flex items-center">
                   {/* <FaShieldAlt className="inline-block mr-2" /> */}
-                  {/* <Image src="/image.png" alt="Forensiqo" width={100} height={100} /> */}
-                  Forensiqo
+                  {/* <Image src="/image.png" alt="Forensigo" width={100} height={100} /> */}
+                  Forensigo
                 </Link>
               </div>
             </div>

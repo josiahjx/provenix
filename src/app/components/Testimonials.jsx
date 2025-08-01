@@ -6,19 +6,19 @@ const Testimonials = () => {
     {
       name: "John D.",
       role: "Bitcoin Investor",
-      content: "After losing access to my wallet with over 5 BTC, I thought all was lost. Forensiqo recovered everything within 2 weeks. Their expertise is unmatched!",
+      content: "After losing access to my wallet with over 5 BTC, I thought all was lost. Forensigo recovered everything within 2 weeks. Their expertise is unmatched!",
       amount: "5 BTC"
     },
     {
       name: "Sarah M.",
       role: "Crypto Trader",
-      content: "I fell victim to a phishing scam and lost my entire portfolio. Thanks to Forensiqo quick action, I got back 90% of my assets. They're true professionals.",
+      content: "I fell victim to a phishing scam and lost my entire portfolio. Thanks to Forensigo quick action, I got back 90% of my assets. They're true professionals.",
       amount: "$250,000"
     },
     {
       name: "Michael R.",
       role: "NFT Collector",
-      content: "When my hardware wallet failed, I thought I'd lost my valuable NFT collection. Forensiqo team recovered everything and provided excellent support throughout.",
+      content: "When my hardware wallet failed, I thought I'd lost my valuable NFT collection. Forensigo team recovered everything and provided excellent support throughout.",
       amount: "15 NFTs"
     }
   ];
