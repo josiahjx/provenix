@@ -10,7 +10,7 @@ const Footer = () => {
           <div>
             <div className="flex items-center mb-4">
               <FaShieldAlt className="text-blue-400 text-2xl mr-2" />
-              <span className="text-white text-xl font-bold">Forensiqo</span>
+              <span className="text-white text-xl font-bold">Forensigo</span>
             </div>
             <p className="text-gray-400 mb-4">
               Professional cryptocurrency recovery services with a proven track record of success.
@@ -61,7 +61,7 @@ const Footer = () => {
 
         <div className="border-t border-gray-800 mt-12 pt-8 text-center">
           <p className="text-gray-400">
-            © {new Date().getFullYear()} Forensiqo. All rights reserved.
+            © {new Date().getFullYear()} Forensigo. All rights reserved.
           </p>
         </div>
       </div>

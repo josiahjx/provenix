@@ -84,7 +84,7 @@ const About = () => {
           viewport={{ once: true }}
         >
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Why Choose <span className="text-blue-400">Forensiqo</span>
+            Why Choose <span className="text-blue-400">Forensigo</span>
           </h2>
           <p className="text-gray-400 max-w-2xl mx-auto">
             We combine cutting-edge technology with expert knowledge to provide the best recovery solutions.
