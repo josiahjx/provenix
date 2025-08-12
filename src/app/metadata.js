@@ -13,14 +13,14 @@ export const defaultMetadata = {
     address: false,
     telephone: false,
   },
-  metadataBase: new URL('https://Forensigo.com'),
+  metadataBase: new URL('https://Forensigo.org'),
   alternates: {
     canonical: '/',
   },
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://Forensigo.com',
+    url: 'https://Forensigo.org',
     siteName: 'Forensigo',
     title: 'Forensigo | Recover Lost or Stolen Cryptocurrency',
     description: 'Recover Lost or Stolen Cryptocurrency | Trusted Crypto Recovery Services ,Get expert help to recover lost, hacked, or stolen crypto assets. Our secure, fast, and professional crypto recovery services support Bitcoin, Ethereum, and all major wallets. 24/7 support. Regain access today!',

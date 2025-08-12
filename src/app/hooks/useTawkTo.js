@@ -8,7 +8,7 @@ const useTawkTo = () => {
     // Create script element
     const script = document.createElement('script');
     script.async = true;
-    script.src = 'https://embed.tawk.to/6847433b14a7fb190e76cd20/1itb5tb2r';
+    script.src = 'https://embed.tawk.to/689b334d4d892d19222e872e/1j2f40q32';
     script.charset = 'UTF-8';
     script.setAttribute('crossorigin', '*');
 

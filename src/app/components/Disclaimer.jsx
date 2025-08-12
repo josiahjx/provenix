@@ -101,8 +101,8 @@ const Disclaimer = () => {
             <p className="text-gray-400">
               For any questions regarding this Disclaimer, please contact us at:
               <br />
-              <a href="mailto:legal@tokentrackers.com" className="text-blue-400 hover:underline">
-                legal@Forensigo.com
+              <a href="mailto:legal@tokentrackers.org" className="text-blue-400 hover:underline">
+                legal@Forensigo.org
               </a>
             </p>
           </motion.div>
