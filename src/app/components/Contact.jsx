@@ -81,7 +81,7 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact" className="py-20 px-4 sm:px-6 lg:px-8">
+    <section id="contact" className="bg-foam px-4 py-20 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         <motion.div 
           className="text-center mb-16 mt-10"
@@ -90,10 +90,10 @@ const Contact = () => {
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
         >
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Contact <span className="text-blue-400">Us</span>
+          <h2 className="mb-4 text-3xl font-black tracking-tight text-ink md:text-5xl">
+            Contact <span className="text-accent">us</span>
           </h2>
-          <p className="text-gray-400 max-w-2xl mx-auto">
+          <p className="mx-auto max-w-2xl text-slate-500">
             Have questions about our services? Get in touch with our team for expert assistance.
           </p>
         </motion.div>
@@ -106,31 +106,31 @@ const Contact = () => {
           viewport={{ once: true }}
         >
           <motion.div variants={itemVariants} className="space-y-8">
-            <div className="bg-gray-800 p-6 rounded-lg">
+            <div className="rounded-3xl border border-slate-200 bg-white p-6 text-ink">
               <div className="flex items-start space-x-4">
                 <div className="flex-shrink-0">
-                  <FaEnvelope className="text-blue-400 text-2xl" />
+                  <FaEnvelope className="text-2xl text-accent" />
                 </div>
                 <div>
                   <h3 className="text-xl font-bold mb-2">Email Us</h3>
-                  <p className="text-gray-400">
-                    <a href="mailto:support@Forensigo.org" className="hover:text-blue-400 transition">
-                      support@Forensigo.org
+                  <p className="text-slate-600">
+                    <a href="mailto:support@Provenix.org" className="transition hover:text-accent">
+                      support@Provenix.org
                     </a>
                   </p>
                 </div>
               </div>
             </div>
 
-            <div className="bg-gray-800 p-6 rounded-lg">
+            <div className="rounded-3xl border border-slate-200 bg-white p-6 text-ink">
               <div className="flex items-start space-x-4">
                 <div className="flex-shrink-0">
-                  <FaPhone className="text-blue-400 text-2xl" />
+                  <FaPhone className="text-2xl text-accent" />
                 </div>
                 <div>
                   <h3 className="text-xl font-bold mb-2">Call Us</h3>
-                  <p className="text-gray-400">
-                    <a href="tel:+14244190622" className="hover:text-blue-400 transition">
+                  <p className="text-slate-600">
+                    <a href="tel:+14244190622" className="transition hover:text-accent">
                       +1 424 419 0622
                     </a>
                   </p>
@@ -138,14 +138,14 @@ const Contact = () => {
               </div>
             </div>
 
-            <div className="bg-gray-800 p-6 rounded-lg">
+            <div className="rounded-3xl border border-slate-200 bg-white p-6 text-ink">
               <div className="flex items-start space-x-4">
                 <div className="flex-shrink-0">
-                  <FaMapMarkerAlt className="text-blue-400 text-2xl" />
+                  <FaMapMarkerAlt className="text-2xl text-accent" />
                 </div>
                 <div>
                   <h3 className="text-xl font-bold mb-2">Visit Us</h3>
-                  <p className="text-gray-400">
+                  <p className="text-slate-600">
                     15303 Ventura Blvd<br />
                     Sherman Oaks, CA<br />
                     91403
@@ -155,18 +155,18 @@ const Contact = () => {
             </div>
           </motion.div>
 
-          <motion.div variants={itemVariants} className="bg-gray-800 p-8 rounded-lg">
+          <motion.div variants={itemVariants} className="rounded-3xl border border-slate-200 bg-white p-8 text-ink">
             {success ? (
               <div className="text-center py-8">
                 <h3 className="text-2xl font-semibold text-green-400 mb-4">
                   Message Sent Successfully!
                 </h3>
-                <p className="text-gray-400 mb-6">
+                <p className="text-slate-600 mb-6">
                   Thank you for contacting us. We'll get back to you soon.
                 </p>
                 <button
                   onClick={() => setSuccess(false)}
-                  className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-6 rounded-lg transition duration-300"
+                  className="rounded-full bg-accent px-6 py-3 text-xs font-bold uppercase tracking-[0.12em] text-white transition duration-300 hover:bg-ink"
                 >
                   Send Another Message
                 </button>
@@ -175,7 +175,7 @@ const Contact = () => {
               <form ref={formRef} onSubmit={handleSubmit} className="space-y-6">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div>
-                    <label htmlFor="name" className="block text-sm font-medium text-gray-300 mb-2">
+                    <label htmlFor="name" className="mb-2 block text-sm font-bold text-ink">
                       Name
                     </label>
                     <input
@@ -185,12 +185,12 @@ const Contact = () => {
                       value={form.name}
                       onChange={handleChange}
                       required
-                      className="w-full bg-gray-700 border border-gray-600 rounded-lg px-4 py-3 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                      className="w-full rounded-xl border border-slate-200 bg-slate-50 px-4 py-3 text-ink placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-accent"
                       placeholder="Your Name"
                     />
                   </div>
                   <div>
-                    <label htmlFor="email" className="block text-sm font-medium text-gray-300 mb-2">
+                    <label htmlFor="email" className="mb-2 block text-sm font-bold text-ink">
                       Email
                     </label>
                     <input
@@ -200,13 +200,13 @@ const Contact = () => {
                       value={form.email}
                       onChange={handleChange}
                       required
-                      className="w-full bg-gray-700 border border-gray-600 rounded-lg px-4 py-3 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                      className="w-full rounded-xl border border-slate-200 bg-slate-50 px-4 py-3 text-ink placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-accent"
                       placeholder="your@email.com"
                     />
                   </div>
                 </div>
                 <div>
-                  <label htmlFor="phone" className="block text-sm font-medium text-gray-300 mb-2">
+                  <label htmlFor="phone" className="mb-2 block text-sm font-bold text-ink">
                     Phone Number
                   </label>
                   <input
@@ -215,12 +215,12 @@ const Contact = () => {
                     name="phone"
                     value={form.phone}
                     onChange={handleChange}
-                    className="w-full bg-gray-700 border border-gray-600 rounded-lg px-4 py-3 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                    className="w-full rounded-xl border border-slate-200 bg-slate-50 px-4 py-3 text-ink placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-accent"
                     placeholder="+1 (234) 567-890"
                   />
                 </div>
                 <div>
-                  <label htmlFor="subject" className="block text-sm font-medium text-gray-300 mb-2">
+                  <label htmlFor="subject" className="mb-2 block text-sm font-bold text-ink">
                     Subject
                   </label>
                   <input
@@ -230,12 +230,12 @@ const Contact = () => {
                     value={form.subject}
                     onChange={handleChange}
                     required
-                    className="w-full bg-gray-700 border border-gray-600 rounded-lg px-4 py-3 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                    className="w-full rounded-xl border border-slate-200 bg-slate-50 px-4 py-3 text-ink placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-accent"
                     placeholder="Subject"
                   />
                 </div>
                 <div>
-                  <label htmlFor="message" className="block text-sm font-medium text-gray-300 mb-2">
+                  <label htmlFor="message" className="mb-2 block text-sm font-bold text-ink">
                     Message
                   </label>
                   <textarea
@@ -245,7 +245,7 @@ const Contact = () => {
                     onChange={handleChange}
                     required
                     rows="6"
-                    className="w-full bg-gray-700 border border-gray-600 rounded-lg px-4 py-3 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                    className="w-full rounded-xl border border-slate-200 bg-slate-50 px-4 py-3 text-ink placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-accent"
                     placeholder="Your message..."
                   />
                 </div>
@@ -256,7 +256,7 @@ const Contact = () => {
                   <button
                     type="submit"
                     disabled={loading}
-                    className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg transition duration-300 flex items-center"
+                    className="flex items-center rounded-full bg-accent px-6 py-3 text-xs font-bold uppercase tracking-[0.12em] text-white transition duration-300 hover:bg-ink"
                   >
                     {loading ? (
                       <>

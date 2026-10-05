@@ -1,44 +1,44 @@
 export const defaultMetadata = {
   title: {
-    default: 'Forensigo | Blockchain Intelligence & Asset Recovery',
-    template: '%s | Forensigo'
+    default: 'Provenix | Fraud Investigations & Digital Intelligence',
+    template: '%s | Provenix'
   },
-  description: 'Advanced tracking and monitoring solution for digital assets and cryptocurrency recovery.Recover Lost or Stolen Cryptocurrency | Trusted Crypto Recovery ServicesGet expert help to recover lost, hacked, or stolen crypto assets. Our secure, fast, and professional crypto recovery services support Bitcoin, Ethereum, and all major wallets. 24/7 support. Regain access today!',
-  keywords: ['cryptocurrency recovery', 'blockchain security', 'digital asset tracking', 'crypto wallet recovery', 'blockchain forensics'],
-  authors: [{ name: 'Forensigo Team' }],
-  creator: 'Forensigo',
-  publisher: 'Forensigo',
+  description: 'Provenix investigates fraud, traces digital assets, and prepares evidence-led briefings for people and businesses that need a clear next step.',
+  keywords: ['fraud investigation', 'crypto forensics', 'background checks', 'digital asset tracing', 'Provenix'],
+  authors: [{ name: 'Provenix' }],
+  creator: 'Provenix',
+  publisher: 'Provenix',
   formatDetection: {
     email: false,
     address: false,
     telephone: false,
   },
-  metadataBase: new URL('https://Forensigo.org'),
+  metadataBase: new URL('https://Provenix.org'),
   alternates: {
     canonical: '/',
   },
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://Forensigo.org',
-    siteName: 'Forensigo',
-    title: 'Forensigo | Recover Lost or Stolen Cryptocurrency',
-    description: 'Recover Lost or Stolen Cryptocurrency | Trusted Crypto Recovery Services ,Get expert help to recover lost, hacked, or stolen crypto assets. Our secure, fast, and professional crypto recovery services support Bitcoin, Ethereum, and all major wallets. 24/7 support. Regain access today!',
+    url: 'https://Provenix.org',
+    siteName: 'Provenix',
+    title: 'Provenix | Fraud Investigations & Digital Intelligence',
+    description: 'Provenix investigates fraud, traces digital assets, and prepares evidence-led briefings for people and businesses that need a clear next step.',
     images: [
       {
         url: '/umag.png',
         width: 1200,
         height: 630,
-        alt: 'Forensigo | Recover Lost or Stolen Cryptocurrency',
+        alt: 'Provenix | Recover Lost or Stolen Cryptocurrency',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Forensigo | Recover Lost or Stolen Cryptocurrency',
-    description: 'Recover Lost or Stolen Cryptocurrency | Trusted Crypto Recovery Services ,Get expert help to recover lost, hacked, or stolen crypto assets. Our secure, fast, and professional crypto recovery services support Bitcoin, Ethereum, and all major wallets. 24/7 support. Regain access today!',
+    title: 'Provenix | Fraud Investigations & Digital Intelligence',
+    description: 'Provenix investigates fraud, traces digital assets, and prepares evidence-led briefings for people and businesses that need a clear next step.',
     images: ['/twitter-image.jpg'],
-    creator: '@Forensigo',
+    creator: '@Provenix',
   },
   robots: {
     index: true,

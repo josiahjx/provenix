@@ -27,7 +27,7 @@ const Disclaimer = () => {
   };
 
   return (
-    <section className="min-h-screen bg-gray-900 py-20 px-4 sm:px-6 lg:px-8">
+    <section className="min-h-screen bg-gray-900 py-20 px-4 text-slate-100 sm:px-6 lg:px-8">
       <div className="max-w-4xl mx-auto">
         <motion.div
           className="text-center mb-16 mt-10"
@@ -52,7 +52,7 @@ const Disclaimer = () => {
           <motion.div variants={itemVariants} className="bg-gray-800 p-6 rounded-lg">
             <h2 className="text-2xl font-bold mb-4">1. No Guarantees</h2>
             <p className="text-gray-400">
-              Forensigo makes no guarantees regarding the success of cryptocurrency recovery attempts. While we employ our best efforts and expertise, the nature of blockchain technology means that not all recovery attempts will be successful.
+              Provenix makes no guarantees regarding the success of cryptocurrency recovery attempts. While we employ our best efforts and expertise, the nature of blockchain technology means that not all recovery attempts will be successful.
             </p>
           </motion.div>
 
@@ -102,7 +102,7 @@ const Disclaimer = () => {
               For any questions regarding this Disclaimer, please contact us at:
               <br />
               <a href="mailto:legal@tokentrackers.org" className="text-blue-400 hover:underline">
-                legal@Forensigo.org
+                legal@Provenix.org
               </a>
             </p>
           </motion.div>

@@ -115,7 +115,7 @@ const Blog = () => {
   };
 
   return (
-    <section className="min-h-screen bg-gray-900 py-20 px-4 sm:px-6 lg:px-8">
+    <section className="min-h-screen bg-foam px-4 py-20 text-ink sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         <motion.div 
           className="text-center mb-16 mt-10"
@@ -123,10 +123,10 @@ const Blog = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Latest <span className="text-blue-400">Articles</span>
+          <h2 className="mb-4 text-3xl font-black tracking-tight md:text-5xl">
+            Latest <span className="text-accent">articles</span>
           </h2>
-          <p className="text-gray-400 max-w-2xl mx-auto">
+          <p className="mx-auto max-w-2xl text-slate-500">
             Stay updated with the latest insights and developments in cryptocurrency recovery and security.
           </p>
         </motion.div>
@@ -135,7 +135,7 @@ const Blog = () => {
           {showLeftArrow && (
             <button
               onClick={scrollLeft}
-              className="absolute left-0 top-1/2 -translate-y-1/2 bg-gradient-to-r from-blue-500 to-blue-600 text-white p-4 rounded-full hover:from-blue-600 hover:to-blue-700 transition-all duration-300 z-10 shadow-lg hover:shadow-xl hover:scale-110"
+              className="absolute left-0 top-1/2 z-10 -translate-y-1/2 rounded-full bg-ink p-4 text-white shadow-lg transition-all duration-300 hover:bg-accent"
               aria-label="Scroll left"
             >
               <FaChevronLeft className="text-xl" />
@@ -154,7 +154,7 @@ const Blog = () => {
               <motion.article
                 key={post.id}
                 variants={itemVariants}
-                className="bg-gray-800 min-w-[300px] max-w-[400px] rounded-lg overflow-hidden hover:shadow-lg transition duration-300 flex-shrink-0"
+                className="min-w-[300px] max-w-[400px] flex-shrink-0 overflow-hidden rounded-3xl border border-slate-200 bg-white transition duration-300 hover:border-accent hover:shadow-card"
               >
                 <Link href={`/blog/${post.id}`} className="block">
                   <div className="relative w-full h-48">
@@ -176,8 +176,8 @@ const Blog = () => {
                         {post.author}
                       </span>
                     </div>
-                    <h3 className="text-xl font-semibold mb-2 text-white">{post.title}</h3>
-                    <p className="text-gray-400">{post.excerpt}</p>
+                    <h3 className="mb-2 text-xl font-black text-ink">{post.title}</h3>
+                    <p className="text-slate-600">{post.excerpt}</p>
                   </div>
                 </Link>
               </motion.article>
@@ -187,7 +187,7 @@ const Blog = () => {
           {showRightArrow && (
             <button
               onClick={scrollRight}
-              className="absolute right-0 top-1/2 -translate-y-1/2 bg-gradient-to-r from-blue-500 to-blue-600 text-white p-4 rounded-full hover:from-blue-600 hover:to-blue-700 transition-all duration-300 z-10 shadow-lg hover:shadow-xl hover:scale-110"
+              className="absolute right-0 top-1/2 z-10 -translate-y-1/2 rounded-full bg-ink p-4 text-white shadow-lg transition-all duration-300 hover:bg-accent"
               aria-label="Scroll right"
             >
               <FaChevronRight className="text-xl" />

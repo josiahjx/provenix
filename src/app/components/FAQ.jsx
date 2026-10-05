@@ -58,7 +58,7 @@ const FAQ = () => {
   };
 
   return (
-    <section id="faq" className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-900">
+    <section id="faq" className="bg-foam px-4 py-20 text-ink sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         <motion.div 
           className="text-center mb-16 mt-10"
@@ -67,10 +67,10 @@ const FAQ = () => {
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
         >
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Frequently Asked <span className="text-blue-400">Questions</span>
+          <h2 className="mb-4 text-3xl font-black tracking-tight md:text-5xl">
+            Frequently asked <span className="font-serif font-normal italic text-accent">questions</span>
           </h2>
-          <p className="text-gray-400 max-w-2xl mx-auto">
+          <p className="mx-auto max-w-2xl text-slate-500">
             Find answers to common questions about our cryptocurrency recovery services.
           </p>
         </motion.div>
@@ -90,13 +90,13 @@ const FAQ = () => {
             >
               <button
                 onClick={() => toggleFAQ(index)}
-                className="w-full text-left bg-gray-800 p-4 rounded-lg flex justify-between items-center hover:bg-gray-700 transition"
+                className="flex w-full items-center justify-between rounded-2xl border border-slate-200 bg-white p-5 text-left transition hover:border-accent"
               >
-                <span className="font-medium text-white">{faq.question}</span>
+                <span className="font-bold text-ink">{faq.question}</span>
                 {openIndex === index ? (
-                  <FaChevronUp className="text-blue-400" />
+                  <FaChevronUp className="text-accent" />
                 ) : (
-                  <FaChevronDown className="text-blue-400" />
+                  <FaChevronDown className="text-accent" />
                 )}
               </button>
               {openIndex === index && (
@@ -105,9 +105,9 @@ const FAQ = () => {
                   animate={{ opacity: 1, height: 'auto' }}
                   exit={{ opacity: 0, height: 0 }}
                   transition={{ duration: 0.3 }}
-                  className="bg-gray-800 p-4 rounded-lg mt-1"
+                  className="mt-1 rounded-2xl bg-white p-5"
                 >
-                  <p className="text-gray-400">{faq.answer}</p>
+                  <p className="leading-7 text-slate-600">{faq.answer}</p>
                 </motion.div>
               )}
             </motion.div>

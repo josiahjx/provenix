@@ -56,7 +56,7 @@ const About = () => {
   ];
 
   return (
-    <section id="about" className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-800 ml-2 md:mx-auto ">
+    <section id="about" className="bg-white px-4 py-20 text-ink sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         
 
@@ -83,22 +83,22 @@ const About = () => {
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
         >
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Why Choose <span className="text-blue-400">Forensigo</span>
+          <h2 className="mb-4 text-3xl font-black tracking-tight md:text-5xl">
+            Why choose <span className="text-accent">Provenix</span>
           </h2>
-          <p className="text-gray-400 max-w-2xl mx-auto">
+          <p className="mx-auto max-w-2xl text-slate-500">
             We combine cutting-edge technology with expert knowledge to provide the best recovery solutions.
           </p>
         </motion.div>
 
           <motion.div
-            className="bg-gray-800 p-6 rounded-lg"
+            className="rounded-3xl border border-slate-200 bg-foam p-8"
             variants={itemVariants}
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true }}
           >
-            <h3 className="text-xl font-bold mb-4">Key Features</h3>
+            <h3 className="mb-4 text-xl font-black">Key features</h3>
             <ul className="space-y-4">
               {features.map((feature, index) => (
                 <motion.li
@@ -106,12 +106,12 @@ const About = () => {
                   variants={itemVariants}
                   className="flex items-start"
                 >
-                  <div className={`text-${feature.color}-400 text-xl mr-4 mt-1`}>
+                  <div className="mr-4 mt-1 text-xl text-accent">
                     <feature.icon />
                   </div>
                   <div>
-                    <h4 className="font-bold text-gray-200">{feature.title}</h4>
-                    <p className="text-gray-400">{feature.description}</p>
+                    <h4 className="font-bold text-ink">{feature.title}</h4>
+                    <p className="text-slate-600">{feature.description}</p>
                   </div>
                 </motion.li>
               ))}

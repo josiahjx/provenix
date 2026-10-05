@@ -8,31 +8,31 @@ const TrustTestimonials = () => {
     {
       name: 'Simon Phil.',
       role: 'Blockchain Secuirity Analyst',
-      content: 'Forensigo helped me recover my lost Bitcoin wallet. Their team was professional and efficient throughout the entire process.',
+      content: 'Provenix helped me recover my lost Bitcoin wallet. Their team was professional and efficient throughout the entire process.',
       rating: 5
     },
     {
       name: 'Jerom Kylian.',
       role: 'Crypto Trader',
-      content: 'I thought my Ethereum was gone forever, but Forensigo proved me wrong. Their expertise in blockchain recovery is unmatched.',
+      content: 'I thought my Ethereum was gone forever, but Provenix proved me wrong. Their expertise in blockchain recovery is unmatched.',
       rating: 5
     },
     {
       name: 'Emily Anke.',
       role: 'Business Owner',
-      content: 'The team at Forensigo went above and beyond to help me recover my business funds. Highly recommended!',
+      content: 'The team at Provenix went above and beyond to help me recover my business funds. Highly recommended!',
       rating: 4
     },
     {
       name: 'Susan Walt.',
       role: 'Crypto Enthusiast',
-      content: 'Fast, reliable, and trustworthy. Forensigo helped me recover my lost assets when others couldn\'t.',
+      content: 'Fast, reliable, and trustworthy. Provenix helped me recover my lost assets when others couldn\'t.',
       rating: 5
     },
     {
       name: 'David Matt.',
       role: 'Software Developer',
-      content: 'As someone who understands blockchain technology, I can attest to Forensigo\'s technical expertise.',
+      content: 'As someone who understands blockchain technology, I can attest to Provenix\'s technical expertise.',
       rating: 4
     }
   ];
@@ -61,7 +61,7 @@ const TrustTestimonials = () => {
   };
 
   return (
-    <section id="testimonials" className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-900">
+    <section id="testimonials" className="bg-gray-900 px-4 py-20 text-white sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         <motion.div 
           className="text-center mb-16"

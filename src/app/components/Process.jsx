@@ -52,7 +52,7 @@ const Process = () => {
   //                 <span className="text-white font-bold">{index + 1}</span>
   //               </div>
   //               <h3 className="text-xl font-bold mb-3">{step.title}</h3>
-  //               <p className="text-gray-400">{step.description}</p>
+  //               <p className="leading-7 text-slate-600">{step.description}</p>
   //             </div>
   //           </div>
   //         ))}
@@ -62,32 +62,32 @@ const Process = () => {
   // );
   return (
     <>
-     <section id="process" className="py-20 px-4 sm:px-6 lg:px-8">
+     <section id="process" className="bg-white px-4 py-20 text-ink sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
             <div className="text-center mb-16 mt-10">
-                <h2 className="text-3xl md:text-4xl font-bold mb-4">Our <span className="text-blue-400">Recovery</span> Process</h2>
-                <p className="text-gray-400 max-w-2xl mx-auto">
+                <h2 className="mb-4 text-3xl font-black tracking-tight text-ink md:text-5xl">Our <span className="text-accent">investigation</span> process</h2>
+                <p className="mx-auto max-w-2xl text-slate-500">
                     A transparent and methodical approach to maximize your chances of recovery.
                 </p>
             </div>
             
             <div className="relative">
                 
-                <div className="hidden md:block absolute left-1/2 h-full w-0.5 bg-gray-700 transform -translate-x-1/2"></div>
+                <div className="hidden md:block absolute left-1/2 h-full w-0.5 bg-accent/30 transform -translate-x-1/2"></div>
                 
                 
                 <div className="space-y-12 md:space-y-0">
                    
                     <div className="relative md:flex md:items-center md:justify-between">
                         <div className="md:w-5/12 md:pr-12 mb-8 md:mb-0 text-right">
-                            <div className="inline-block bg-blue-500 text-white text-sm font-semibold px-3 py-1 rounded-full mb-2">Step 1</div>
+                            <div className="inline-block bg-accent text-white text-sm font-semibold px-3 py-1 rounded-full mb-2">Step 1</div>
                             <h3 className="text-xl font-bold mb-2">Initial Consultation</h3>
-                            <p className="text-gray-400">
+                            <p className="leading-7 text-slate-600">
                                 Free 30-minute consultation to assess your situation and determine recovery feasibility.
                             </p>
                         </div>
                         <div className="hidden  w-2/12 flex-shrink-0 md:flex justify-center">
-                            <div className="w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center">
+                            <div className="w-12 h-12 bg-accent rounded-full flex items-center justify-center">
                                 <i className="fas fa-comments text-white text-xl"></i>
                             </div>
                         </div>
@@ -98,14 +98,14 @@ const Process = () => {
                     <div className="relative md:flex md:items-center md:justify-between">
                         <div className="md:w-5/12 md:pr-12"></div>
                         <div className="hidden md:flex w-2/12 flex-shrink-0  justify-center">
-                            <div className="w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center">
+                            <div className="w-12 h-12 bg-accent rounded-full flex items-center justify-center">
                                 <i className="fas fa-file-signature text-white text-xl"></i>
                             </div>
                         </div>
                         <div className="md:w-5/12 md:pl-12 mb-8 md:mb-0">
-                            <div className="inline-block bg-blue-500 text-white text-sm font-semibold px-3 py-1 rounded-full mb-2">Step 2</div>
+                            <div className="inline-block bg-accent text-white text-sm font-semibold px-3 py-1 rounded-full mb-2">Step 2</div>
                             <h3 className="text-xl font-bold mb-2">Agreement & Documentation</h3>
-                            <p className="text-gray-400">
+                            <p className="leading-7 text-slate-600">
                                 Sign our service agreement,pay consultation fee and provide necessary documentation about your case.
                             </p>
                         </div>
@@ -114,14 +114,14 @@ const Process = () => {
                     
                     <div className="relative md:flex md:items-center md:justify-between">
                         <div className="md:w-5/12 md:pr-12 mb-8 md:mb-0 text-right">
-                            <div className="inline-block bg-blue-500 text-white text-sm font-semibold px-3 py-1 rounded-full mb-2">Step 3</div>
+                            <div className="inline-block bg-accent text-white text-sm font-semibold px-3 py-1 rounded-full mb-2">Step 3</div>
                             <h3 className="text-xl font-bold mb-2">Forensic Analysis</h3>
-                            <p className="text-gray-400">
+                            <p className="leading-7 text-slate-600">
                                 Our experts perform blockchain analysis and technical investigation of your case.
                             </p>
                         </div>
                         <div className="hidden  w-2/12 flex-shrink-0 md:flex justify-center">
-                            <div className="w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center">
+                            <div className="w-12 h-12 bg-accent rounded-full flex items-center justify-center">
                                 <i className="fas fa-search text-white text-xl"></i>
                             </div>
                         </div>
@@ -132,14 +132,14 @@ const Process = () => {
                     <div className="relative md:flex md:items-center md:justify-between">
                         <div className="md:w-5/12 md:pr-12"></div>
                         <div className="hidden  w-2/12 flex-shrink-0 md:flex justify-center">
-                            <div className="w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center">
+                            <div className="w-12 h-12 bg-accent rounded-full flex items-center justify-center">
                                 <i className="fas fa-tools text-white text-xl"></i>
                             </div>
                         </div>
                         <div className="md:w-5/12 md:pl-12 mb-8 md:mb-0">
-                            <div className="inline-block bg-blue-500 text-white text-sm font-semibold px-3 py-1 rounded-full mb-2">Step 4</div>
+                            <div className="inline-block bg-accent text-white text-sm font-semibold px-3 py-1 rounded-full mb-2">Step 4</div>
                             <h3 className="text-xl font-bold mb-2">Recovery Attempt</h3>
-                            <p className="text-gray-400">
+                            <p className="leading-7 text-slate-600">
                                 Implementation of recovery strategies including technical and legal approaches.
                             </p>
                         </div>
@@ -148,14 +148,14 @@ const Process = () => {
                    
                     <div className="relative md:flex md:items-center md:justify-between">
                         <div className="md:w-5/12 md:pr-12 mb-8 md:mb-0 text-right">
-                            <div className="inline-block bg-blue-500 text-white text-sm font-semibold px-3 py-1 rounded-full mb-2">Step 5</div>
+                            <div className="inline-block bg-accent text-white text-sm font-semibold px-3 py-1 rounded-full mb-2">Step 5</div>
                             <h3 className="text-xl font-bold mb-2">Funds Return</h3>
-                            <p className="text-gray-400">
+                            <p className="leading-7 text-slate-600">
                                 Successful recovery results in funds being returned to you minus our agreed fee.
                             </p>
                         </div>
                         <div className="hidden  w-2/12 flex-shrink-0 md:flex justify-center">
-                            <div className="w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center">
+                            <div className="w-12 h-12 bg-accent rounded-full flex items-center justify-center">
                                 <i className="fas fa-check-circle text-white text-xl"></i>
                             </div>
                         </div>

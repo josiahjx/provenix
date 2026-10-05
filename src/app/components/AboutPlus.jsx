@@ -7,7 +7,7 @@ import { FaShieldAlt, FaLock, FaUserShield, FaChartLine, FaCode, FaGlobe, FaHand
 const AboutPlus = () => {
   const expertise = [
     {
-      icon: <FaCode className="text-3xl text-blue-400" />,
+      icon: <FaCode className="text-3xl text-accent" />,
       title: 'Technical Expertise',
       description: 'Our team consists of blockchain developers, cybersecurity experts, and cryptography specialists with years of experience in the field. We stay updated with the latest technological advancements to provide cutting-edge solutions.',
       details: [
@@ -18,7 +18,7 @@ const AboutPlus = () => {
       ]
     },
     {
-      icon: <FaShieldAlt className="text-3xl text-blue-400" />,
+      icon: <FaShieldAlt className="text-3xl text-accent" />,
       title: 'Security Protocols',
       description: 'We implement enterprise-grade security measures to protect your sensitive information throughout the recovery process. Our security protocols are regularly audited and updated to meet industry standards.',
       details: [
@@ -29,7 +29,7 @@ const AboutPlus = () => {
       ]
     },
     {
-      icon: <FaGlobe className="text-3xl text-blue-400" />,
+      icon: <FaGlobe className="text-3xl text-accent" />,
       title: 'Global Operations',
       description: 'With a presence in multiple countries, we provide 24/7 support to clients worldwide. Our global network allows us to handle cases across different jurisdictions and time zones.',
       details: [
@@ -40,7 +40,7 @@ const AboutPlus = () => {
       ]
     },
     {
-      icon: <FaHandshake className="text-3xl text-blue-400" />,
+      icon: <FaHandshake className="text-3xl text-accent" />,
       title: 'Client Success',
       description: 'We measure our success by our clients\' satisfaction. Our transparent approach and clear communication ensure that you are informed and involved throughout the recovery process.',
       details: [
@@ -76,7 +76,7 @@ const AboutPlus = () => {
   };
 
   return (
-    <section id="about-plus" className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-900">
+    <section id="about-plus" className="bg-foam px-4 py-20 text-ink sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         <motion.div 
           className="text-center mb-16 mt-10"
@@ -86,9 +86,9 @@ const AboutPlus = () => {
           viewport={{ once: true }}
         >
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Our <span className="text-blue-400">Expertise</span>
+            Our <span className="text-accent">Expertise</span>
           </h2>
-          <p className="text-gray-400 max-w-3xl mx-auto">
+          <p className="text-slate-600 max-w-3xl mx-auto">
             At TokenTrackers, we combine technical excellence with years of experience to provide comprehensive cryptocurrency recovery solutions. Our team's expertise spans across multiple disciplines, ensuring we can handle even the most complex cases.
           </p>
         </motion.div>
@@ -104,16 +104,16 @@ const AboutPlus = () => {
             <motion.div
               key={index}
               variants={itemVariants}
-              className="bg-gray-800 p-8 rounded-lg hover:shadow-lg transition duration-300"
+              className="rounded-3xl border border-slate-200 bg-white p-8 transition duration-300 hover:border-accent hover:shadow-card"
             >
               <div className="flex items-start space-x-4">
                 <div className="flex-shrink-0">{item.icon}</div>
                 <div>
                   <h3 className="text-2xl font-semibold mb-3 text-white">{item.title}</h3>
-                  <p className="text-gray-400 mb-4">{item.description}</p>
+                  <p className="text-slate-600 mb-4">{item.description}</p>
                   <ul className="space-y-2">
                     {item.details.map((detail, detailIndex) => (
-                      <li key={detailIndex} className="flex items-center text-gray-400">
+                      <li key={detailIndex} className="flex items-center text-slate-600">
                         <span className="w-2 h-2 bg-blue-400 rounded-full mr-2"></span>
                         {detail}
                       </li>
@@ -126,7 +126,7 @@ const AboutPlus = () => {
         </motion.div>
 
         <motion.div
-          className="mt-16 bg-gray-800 p-8 rounded-lg"
+          className="mt-16 rounded-3xl border border-slate-200 bg-white p-8"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
@@ -135,20 +135,20 @@ const AboutPlus = () => {
           <h3 className="text-2xl font-semibold mb-6 text-white">Our Approach</h3>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div>
-              <h4 className="text-xl font-semibold mb-3 text-blue-400">Assessment</h4>
-              <p className="text-gray-400">
+              <h4 className="text-xl font-semibold mb-3 text-accent">Assessment</h4>
+              <p className="text-slate-600">
                 We begin with a thorough analysis of your case, identifying the best approach for recovery while maintaining the highest security standards.
               </p>
             </div>
             <div>
-              <h4 className="text-xl font-semibold mb-3 text-blue-400">Implementation</h4>
-              <p className="text-gray-400">
+              <h4 className="text-xl font-semibold mb-3 text-accent">Implementation</h4>
+              <p className="text-slate-600">
                 Our team executes the recovery plan using advanced tools and techniques, keeping you informed at every step of the process.
               </p>
             </div>
             <div>
-              <h4 className="text-xl font-semibold mb-3 text-blue-400">Verification</h4>
-              <p className="text-gray-400">
+              <h4 className="text-xl font-semibold mb-3 text-accent">Verification</h4>
+              <p className="text-slate-600">
                 We verify the recovered assets and provide detailed documentation of the recovery process, ensuring complete transparency.
               </p>
             </div>
