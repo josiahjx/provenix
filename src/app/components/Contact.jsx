@@ -131,7 +131,7 @@ const Contact = () => {
                   <h3 className="text-xl font-bold mb-2">Call Us</h3>
                   <p className="text-slate-600">
                     <a href="tel:+14244190622" className="transition hover:text-accent">
-                      +1 424 419 0622
+                      +1 (925) 246‑3400
                     </a>
                   </p>
                 </div>
@@ -146,9 +146,8 @@ const Contact = () => {
                 <div>
                   <h3 className="text-xl font-bold mb-2">Visit Us</h3>
                   <p className="text-slate-600">
-                    15303 Ventura Blvd<br />
-                    Sherman Oaks, CA<br />
-                    91403
+                    17100 ROYAL PALM BLVD<br />
+                    STE 1 WESTON, FL 33326<br />             
                   </p>
                 </div>
               </div>

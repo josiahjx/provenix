@@ -89,7 +89,7 @@ const AboutPlus = () => {
             Our <span className="text-accent">Expertise</span>
           </h2>
           <p className="text-slate-600 max-w-3xl mx-auto">
-            At TokenTrackers, we combine technical excellence with years of experience to provide comprehensive cryptocurrency recovery solutions. Our team's expertise spans across multiple disciplines, ensuring we can handle even the most complex cases.
+            At Provenix Asset Intelligence, we combine technical excellence with years of experience to provide comprehensive cryptocurrency recovery solutions. Our team's expertise spans across multiple disciplines, ensuring we can handle even the most complex cases.
           </p>
         </motion.div>
 

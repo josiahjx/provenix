@@ -6,13 +6,13 @@ const Testimonials = () => {
     {
       name: "John D.",
       role: "Bitcoin Investor",
-      content: "After losing access to my wallet with over 5 BTC, I thought all was lost. Provenix recovered everything within 2 weeks. Their expertise is unmatched!",
+      content: "After losing access to my wallet with over 5 BTC, I thought all was lost. Provenix Asset Intelligence recovered everything within 2 weeks. Their expertise is unmatched!",
       amount: "5 BTC"
     },
     {
       name: "Sarah M.",
       role: "Crypto Trader",
-      content: "I fell victim to a phishing scam and lost my entire portfolio. Thanks to Provenix quick action, I got back 90% of my assets. They're true professionals.",
+      content: "I fell victim to a phishing scam and lost my entire portfolio. Thanks to Provenix Asset Intelligence quick action, I got back 90% of my assets. They're true professionals.",
       amount: "$250,000"
     },
     {

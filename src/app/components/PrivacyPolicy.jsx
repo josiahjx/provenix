@@ -102,8 +102,8 @@ const PrivacyPolicy = () => {
             <p className="text-gray-400">
               If you have any questions about this Privacy Policy, please contact us at:
               <br />
-              <a href="mailto:privacy@tokentrackers.com" className="text-blue-400 hover:underline">
-                privacy@tokentrackers.com
+              <a href="mailto:support@provenix.org" className="text-blue-400 hover:underline">
+                support@provenix.org
               </a>
             </p>
           </motion.div>

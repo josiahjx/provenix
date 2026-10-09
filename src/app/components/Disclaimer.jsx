@@ -52,7 +52,7 @@ const Disclaimer = () => {
           <motion.div variants={itemVariants} className="bg-gray-800 p-6 rounded-lg">
             <h2 className="text-2xl font-bold mb-4">1. No Guarantees</h2>
             <p className="text-gray-400">
-              Provenix makes no guarantees regarding the success of cryptocurrency recovery attempts. While we employ our best efforts and expertise, the nature of blockchain technology means that not all recovery attempts will be successful.
+              Provenix Asset Intelligence makes no guarantees regarding the success of cryptocurrency recovery attempts. While we employ our best efforts and expertise, the nature of blockchain technology means that not all recovery attempts will be successful.
             </p>
           </motion.div>
 
@@ -101,8 +101,8 @@ const Disclaimer = () => {
             <p className="text-gray-400">
               For any questions regarding this Disclaimer, please contact us at:
               <br />
-              <a href="mailto:legal@tokentrackers.org" className="text-blue-400 hover:underline">
-                legal@Provenix.org
+              <a href="mailto:support@provenix.org" className="text-blue-400 hover:underline">
+                support@provenix.org
               </a>
             </p>
           </motion.div>

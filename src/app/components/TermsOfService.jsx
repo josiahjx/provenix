@@ -52,14 +52,14 @@ const TermsOfService = () => {
           <motion.div variants={itemVariants} className="bg-gray-800 p-6 rounded-lg">
             <h2 className="text-2xl font-bold mb-4">1. Acceptance of Terms</h2>
             <p className="text-gray-400">
-              By accessing and using TokenTrackers' services, you agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use our services.
+              By accessing and using Provenix Asset Intelligence's services, you agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use our services.
             </p>
           </motion.div>
 
           <motion.div variants={itemVariants} className="bg-gray-800 p-6 rounded-lg">
             <h2 className="text-2xl font-bold mb-4">2. Services Description</h2>
             <p className="text-gray-400 mb-4">
-              TokenTrackers provides cryptocurrency recovery services, including:
+              Provenix Asset Intelligence provides cryptocurrency recovery services, including:
             </p>
             <ul className="list-disc list-inside text-gray-400 space-y-2">
               <li>Lost private key recovery</li>
@@ -98,7 +98,7 @@ const TermsOfService = () => {
           <motion.div variants={itemVariants} className="bg-gray-800 p-6 rounded-lg">
             <h2 className="text-2xl font-bold mb-4">5. Limitation of Liability</h2>
             <p className="text-gray-400">
-              TokenTrackers is not liable for any indirect, incidental, special, consequential, or punitive damages resulting from your use of our services. We make no guarantees regarding the success of recovery attempts.
+              Provenix Asset Intelligence is not liable for any indirect, incidental, special, consequential, or punitive damages resulting from your use of our services. We make no guarantees regarding the success of recovery attempts.
             </p>
           </motion.div>
 
@@ -107,8 +107,8 @@ const TermsOfService = () => {
             <p className="text-gray-400">
               For any questions regarding these Terms of Service, please contact us at:
               <br />
-              <a href="mailto:legal@tokentrackers.com" className="text-blue-400 hover:underline">
-                legal@tokentrackers.com
+              <a href="mailto:support@provenix.org" className="text-blue-400 hover:underline">
+                support@provenix.org
               </a>
             </p>
           </motion.div>

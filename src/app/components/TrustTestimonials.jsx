@@ -8,19 +8,19 @@ const TrustTestimonials = () => {
     {
       name: 'Simon Phil.',
       role: 'Blockchain Secuirity Analyst',
-      content: 'Provenix helped me recover my lost Bitcoin wallet. Their team was professional and efficient throughout the entire process.',
+      content: 'Provenix Asset Intelligence helped me recover my lost Bitcoin wallet. Their team was professional and efficient throughout the entire process.',
       rating: 5
     },
     {
       name: 'Jerom Kylian.',
       role: 'Crypto Trader',
-      content: 'I thought my Ethereum was gone forever, but Provenix proved me wrong. Their expertise in blockchain recovery is unmatched.',
+      content: 'I thought my Ethereum was gone forever, but Provenix Asset Intelligence proved me wrong. Their expertise in blockchain recovery is unmatched.',
       rating: 5
     },
     {
       name: 'Emily Anke.',
       role: 'Business Owner',
-      content: 'The team at Provenix went above and beyond to help me recover my business funds. Highly recommended!',
+      content: 'The team at Provenix Asset Intelligence went above and beyond to help me recover my business funds. Highly recommended!',
       rating: 4
     },
     {
@@ -32,7 +32,7 @@ const TrustTestimonials = () => {
     {
       name: 'David Matt.',
       role: 'Software Developer',
-      content: 'As someone who understands blockchain technology, I can attest to Provenix\'s technical expertise.',
+      content: 'As someone who understands blockchain technology, I can attest to Provenix Asset Intelligence\'s technical expertise.',
       rating: 4
     }
   ];

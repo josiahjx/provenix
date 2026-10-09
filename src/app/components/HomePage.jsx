@@ -134,7 +134,7 @@ export default function HomePage() {
             </span>
           </h1>
           <p className="mx-auto mt-8 max-w-2xl text-lg font-medium leading-8 text-slate-600">
-            Provenix investigates financial crime and hidden risk for private clients and businesses. We gather the facts, test them, and set out what can be done next.
+            Provenix Asset Intelligence investigates financial crime and hidden risk for private clients and businesses. We gather the facts, test them, and set out what can be done next.
           </p>
           <div className="mt-10 flex justify-center">
             <PillLink href="/contact">Start a case review</PillLink>
@@ -171,7 +171,7 @@ export default function HomePage() {
               A standard check stops at the person, company, or transfer you can already see.
             </p>
             <p className="mt-4 max-w-xl text-base leading-8 text-white/80">
-              Provenix maps related parties, payment routes, company structures, and the digital setup around them. The aim is to show what a surface review leaves out, before that gap becomes a loss you have to explain.
+              Provenix Asset Intelligence maps related parties, payment routes, company structures, and the digital setup around them. The aim is to show what a surface review leaves out, before that gap becomes a loss you have to explain.
             </p>
             <div className="mt-8">
               <PillLink href="/about" variant="white">
@@ -197,7 +197,7 @@ export default function HomePage() {
             <p className="text-xs font-black uppercase tracking-[0.18em] text-accent">For operating businesses</p>
             <h2 className="mt-3 text-4xl font-black tracking-tight">Work inside the decision, not beside it.</h2>
             <p className="mt-4 leading-8 text-white/75">
-              This is not a plug-in. Provenix sits with your team on the transactions, counterparties, and files that carry real exposure, and flags what needs a harder look before money moves.
+              This is not a plug-in. Provenix Asset Intelligence sits with your team on the transactions, counterparties, and files that carry real exposure, and flags what needs a harder look before money moves.
             </p>
           </div>
           <div className="flex flex-col justify-center">
@@ -383,7 +383,7 @@ export default function HomePage() {
               Evidence first. Formal steps after.
             </h2>
             <p className="mt-5 leading-8 text-white/75">
-              If recovery needs a lawyer, Provenix can introduce independent counsel. We prepare the investigative record. Regulated legal work stays with the lawyers instructed on the matter.
+              If recovery needs a lawyer, Provenix Asset Intelligence can introduce independent counsel. We prepare the investigative record. Regulated legal work stays with the lawyers instructed on the matter.
             </p>
           </div>
           <div className="grid gap-4 sm:grid-cols-2">

@@ -46,14 +46,14 @@ const Footer = () => {
             <li><Link href="/legal/disclaimer" className="hover:text-white">Disclaimer</Link></li>
           </ul>
           <p className="mt-6 text-sm leading-7 text-slate-400">
-            15303 Ventura Blvd<br />
-            Sherman Oaks, CA 91403<br />
-            <a href="tel:+14244190622" className="hover:text-white">+1 424 419 0622</a>
+            17100 ROYAL PALM BLVD<br />
+            STE 1 WESTON, FL 33326 <br />
+            <a href="tel:+19252463400" className="hover:text-white">+1 (925) 246-3400</a>
           </p>
         </div>
       </div>
       <div className="mx-auto mt-12 max-w-7xl border-t border-white/10 pt-8 text-sm text-slate-500">
-        © {new Date().getFullYear()} Provenix. All rights reserved.
+        © {new Date().getFullYear()} Provenix Asset Intelligence. All rights reserved.
       </div>
     </footer>
   );
